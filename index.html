@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNCTIONAL CALCULATOR</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!-- <button id="java_button">TRY IT</button>
+    <p id="para"></p> -->
+</head>
+<body>
+    <h1 style="color:rgb(236, 163, 73)">SCIENTIFIC CALCULATOR</h1>
+    <section class="calculator">
+        <div class="">
+            <form class="form_input"><input type="text" class="input_field screen"></form>
+        </div>
+        <div class="buttons"> 
+            <button class="btn yellow_button" data-num = "-">-</button>
+            <button class="btn yellow_button" data-num = "+">+</button>
+            <button class="btn yellow_button" data-num = "*">*</button>
+            <button class="btn yellow_button" data-num = "/">/</button>
+
+            <button class="btn gray_button" data-num = "9">9</button>
+            <button class="btn gray_button" data-num = "8">8</button>
+            <button class="btn gray_button" data-num = "7">7</button>
+            <button class="btn gray_button" data-num = "6">6</button>
+            <button class="btn gray_button" data-num = "5">5</button>
+            <button class="btn gray_button" data-num = "4">4</button>
+            <button class="btn gray_button" data-num = "3">3</button>
+            <button class="btn gray_button" data-num = "2">2</button>
+            <button class="btn gray_button" data-num = "1">1</button>
+            <button class="btn gray_button" data-num = "0">0</button>
+            <button class="btn gray_button" data-num = ".">.</button>
+
+            <button class=" green_button btn-equal" >=</button>
+            <button class=" red_button btn-clear" >C</button>
+            
+        </div>
+    </section> 
+
+
+    <!-- ============JAVASCRIPT LINK============================ -->
+    <script src="javascript.js">
+       
+    </script>
+    <script>
+         document.getElementById("java_button").onclick = funcal;
+        function funcal(){
+            document.getElementById("para").innerHTML= Date();
+        }
+    </script>
+</body>
+</html>
